@@ -1,0 +1,18 @@
+body {
+    --accent: rgb(220 38 38);
+}
+
+circle {
+    stroke-dashoffset: 0;
+    /*stroke-width: 5%;*/
+    fill: none;
+}
+
+.bg {
+    stroke: rgb(100 100 100);
+    opacity: 1;
+}
+
+.progress .indicator {
+    stroke: var(--accent);
+}
